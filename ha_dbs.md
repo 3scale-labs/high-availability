@@ -83,5 +83,6 @@ synchronous](https://access.crunchydata.com/documentation/postgres-operator/4.6.
 It can be configured to be multi-cluster, but in that case, the failover is not
 automatic. Also, the replication in that scenario is synchronous and uses S3 as
 an intermediate storage.
-- [AWS RDS](https://aws.amazon.com/es/rds/ha/). It's multi-AZ and the
-replication is synchronous.
+- [AWS RDS](https://aws.amazon.com/es/rds/ha/). The replication is synchronous.
+It supports [multi-AZ and multi-region
+replicas](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html).
